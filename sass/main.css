@@ -1,3 +1,4 @@
+@charset "UTF-8";
 html {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -52,13 +53,13 @@ button {
   border-radius: 22px;
 }
 
-@media screen and (min-width: 772px) {
+@media screen and (min-width: 768px) {
   .button {
     margin-left: 0;
   }
 }
 
-@media screen and (min-width: 1282px) {
+@media screen and (min-width: 1280px) {
   .button {
     margin-bottom: 104px;
   }
@@ -98,7 +99,7 @@ button {
   background-color: #ECEBEB;
 }
 
-.technology {
+.about {
   display: block;
   position: relative;
   width: 320px;
@@ -111,16 +112,16 @@ button {
   margin-right: auto;
 }
 
-@media screen and (min-width: 772px) {
-  .technology {
-    width: 772px;
+@media screen and (min-width: 768px) {
+  .about {
+    width: 768px;
     background-image: none;
   }
 }
 
-@media screen and (min-width: 1282px) {
-  .technology {
-    width: 1282px;
+@media screen and (min-width: 1280px) {
+  .about {
+    width: 1280px;
     background-image: url(../img/sectionbg.png);
     background-size: contain;
     background-repeat: no-repeat;
@@ -128,28 +129,28 @@ button {
   }
 }
 
-.technology__container {
+.about__container {
   padding-left: 20px;
   padding-right: 20px;
   margin-left: auto;
   margin-right: auto;
 }
 
-@media screen and (min-width: 772px) {
-  .technology__container {
-    padding-left: 36px;
-    padding-right: 36px;
+@media screen and (min-width: 768px) {
+  .about__container {
+    padding-left: 34px;
+    padding-right: 34px;
   }
 }
 
-@media screen and (min-width: 1282px) {
-  .technology__container {
-    padding-left: 116px;
-    padding-right: 116px;
+@media screen and (min-width: 1280px) {
+  .about__container {
+    padding-left: 115px;
+    padding-right: 115px;
   }
 }
 
-.technology__title {
+.about__title {
   display: block;
   padding-top: 125px;
   padding-bottom: 15px;
@@ -163,21 +164,21 @@ button {
   color: #FFA5BA;
 }
 
-@media screen and (min-width: 772px) {
-  .technology__title {
+@media screen and (min-width: 768px) {
+  .about__title {
     font-size: 26px;
     line-height: 1.15;
   }
 }
 
-@media screen and (min-width: 1282px) {
-  .technology__title {
+@media screen and (min-width: 1280px) {
+  .about__title {
     font-size: 30px;
     line-height: 1.13;
   }
 }
 
-.technology__description {
+.about__description {
   display: block;
   width: 200px;
   margin-left: auto;
@@ -194,8 +195,8 @@ button {
   color: #D41443;
 }
 
-@media screen and (min-width: 772px) {
-  .technology__description {
+@media screen and (min-width: 768px) {
+  .about__description {
     width: 429px;
     font-size: 48px;
     line-height: 1.14;
@@ -203,8 +204,8 @@ button {
   }
 }
 
-@media screen and (min-width: 1282px) {
-  .technology__description {
+@media screen and (min-width: 1280px) {
+  .about__description {
     width: 534px;
     font-size: 58px;
     line-height: 1.13;
@@ -212,8 +213,8 @@ button {
   }
 }
 
-@media screen and (min-width: 772px) {
-  .technology__textBlock {
+@media screen and (min-width: 768px) {
+  .about__textBlock {
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -221,22 +222,22 @@ button {
   }
 }
 
-@media screen and (min-width: 1282px) {
-  .technology__textBlock {
+@media screen and (min-width: 1280px) {
+  .about__textBlock {
     width: 1050px;
     height: 516px;
   }
 }
 
-.technology__image {
+.about__image {
   display: block;
   width: 280px;
   margin-left: auto;
   margin-right: auto;
 }
 
-@media screen and (min-width: 772px) {
-  .technology__image {
+@media screen and (min-width: 768px) {
+  .about__image {
     margin-left: 0;
     margin-right: 17px;
     width: 340px;
@@ -244,28 +245,28 @@ button {
   }
 }
 
-@media screen and (min-width: 1282px) {
-  .technology__image {
+@media screen and (min-width: 1280px) {
+  .about__image {
     width: 516px;
     height: 516px;
     margin-right: 74px;
   }
 }
 
-@media screen and (min-width: 772px) {
-  .technology__descriptionBlock {
+@media screen and (min-width: 768px) {
+  .about__descriptionBlock {
     display: inline-block;
     width: 340px;
   }
 }
 
-@media screen and (min-width: 1282px) {
-  .technology__descriptionBlock {
+@media screen and (min-width: 1280px) {
+  .about__descriptionBlock {
     width: 460px;
   }
 }
 
-.technology__content {
+.about__content {
   display: block;
   width: 220px;
   margin-top: 46px;
@@ -279,8 +280,8 @@ button {
   color: #000000;
 }
 
-@media screen and (min-width: 772px) {
-  .technology__content {
+@media screen and (min-width: 768px) {
+  .about__content {
     width: 340px;
     font-size: 14px;
     line-height: 1.76;
@@ -289,8 +290,8 @@ button {
   }
 }
 
-@media screen and (min-width: 1282px) {
-  .technology__content {
+@media screen and (min-width: 1280px) {
+  .about__content {
     width: 460px;
     font-size: 16px;
     line-height: 1.76;
@@ -298,7 +299,7 @@ button {
   }
 }
 
-.technology__content2 {
+.about__content2 {
   display: block;
   width: 220px;
   margin-bottom: 24px;
@@ -311,8 +312,8 @@ button {
   color: #907E82;
 }
 
-@media screen and (min-width: 772px) {
-  .technology__content2 {
+@media screen and (min-width: 768px) {
+  .about__content2 {
     width: 340px;
     font-size: 14px;
     line-height: 1.76;
@@ -320,8 +321,8 @@ button {
   }
 }
 
-@media screen and (min-width: 1282px) {
-  .technology__content2 {
+@media screen and (min-width: 1280px) {
+  .about__content2 {
     width: 460px;
     font-size: 16px;
     line-height: 1.76;
@@ -329,13 +330,13 @@ button {
   }
 }
 
-.technology__list {
+.about__list {
   margin-top: 39px;
   padding-bottom: 145px;
 }
 
-@media screen and (min-width: 772px) {
-  .technology__list {
+@media screen and (min-width: 768px) {
+  .about__list {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -344,64 +345,64 @@ button {
   }
 }
 
-@media screen and (min-width: 1282px) {
-  .technology__list {
+@media screen and (min-width: 1280px) {
+  .about__list {
     margin-top: 39px;
     padding-bottom: 310px;
   }
 }
 
-.technology__listItem {
+.about__listItem {
   display: block;
   width: 230px;
   margin-bottom: 38px;
 }
 
-@media screen and (min-width: 772px) {
-  .technology__listItem {
+@media screen and (min-width: 768px) {
+  .about__listItem {
     width: 180px;
     margin-right: 60px;
     margin-bottom: 0;
   }
 }
 
-@media screen and (min-width: 1282px) {
-  .technology__listItem {
+@media screen and (min-width: 1280px) {
+  .about__listItem {
     width: 330px;
     margin-right: 30px;
   }
 }
 
-.technology__listItem:last-child {
+.about__listItem:last-child {
   margin-bottom: 0;
 }
 
-@media screen and (min-width: 772px) {
-  .technology__listItem:last-child {
+@media screen and (min-width: 768px) {
+  .about__listItem:last-child {
     margin-right: 0;
   }
 }
 
-.technology__listIcon {
+.about__listIcon {
   width: 50px;
   height: 50px;
   margin-bottom: 16px;
   fill: #FFA5BA;
 }
 
-@media screen and (min-width: 772px) {
-  .technology__listIcon {
+@media screen and (min-width: 768px) {
+  .about__listIcon {
     margin-bottom: 36px;
   }
 }
 
-@media screen and (min-width: 1282px) {
-  .technology__listIcon {
+@media screen and (min-width: 1280px) {
+  .about__listIcon {
     margin-bottom: 40px;
   }
 }
 
-.technology__listTitle {
+.about__listTitle {
   font-family: Titan One;
   font-style: normal;
   font-weight: normal;
@@ -413,20 +414,20 @@ button {
   color: #D41443;
 }
 
-@media screen and (min-width: 772px) {
-  .technology__listTitle {
+@media screen and (min-width: 768px) {
+  .about__listTitle {
     font-size: 48px;
   }
 }
 
-@media screen and (min-width: 1282px) {
-  .technology__listTitle {
+@media screen and (min-width: 1280px) {
+  .about__listTitle {
     font-size: 58px;
     line-height: 1.13;
   }
 }
 
-.technology__listContent {
+.about__listContent {
   font-style: normal;
   font-weight: bold;
   font-size: 12px;
@@ -434,17 +435,325 @@ button {
   color: #000000;
 }
 
-@media screen and (min-width: 772px) {
-  .technology__listContent {
+@media screen and (min-width: 768px) {
+  .about__listContent {
     font-size: 14px;
     line-height: 1.74;
   }
 }
 
-@media screen and (min-width: 1282px) {
-  .technology__listContent {
+@media screen and (min-width: 1280px) {
+  .about__listContent {
     font-size: 16px;
     line-height: 1.76;
+  }
+}
+
+#slider {
+  /*положение слайдера*/
+  position: relative;
+  width: 280px;
+  height: 540px;
+  text-align: center;
+}
+
+@media screen and (min-width: 768px) {
+  #slider {
+    width: 620px;
+    height: 382px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  #slider {
+    width: 926px;
+    height: 350px;
+  }
+}
+
+#slider {
+  /*центровка слайдера*/
+  margin: 0 auto;
+}
+
+#slides article {
+  /*все изображения справа друг от доруга*/
+  width: 20%;
+  float: left;
+}
+
+#slides .image {
+  /*устанавливает общий размер блока с изображениями*/
+  width: 500%;
+  line-height: 0;
+}
+
+#overflow {
+  /*сркывает все, что находится за пределами этого блока*/
+  width: 100%;
+  overflow: hidden;
+}
+
+article img {
+  /*размер изображений слайдера*/
+  width: 100%;
+}
+
+#desktop:checked ~ #slider {
+  /*размер всего слайдера*/
+  max-width: 960px;
+  /*максимальнная длинна*/
+}
+
+label, a {
+  /*при наведении на стрелки или переключатели - курсор изменится*/
+  cursor: pointer;
+}
+
+.testimonials__sliderContainer input {
+  /*скрывает стандартные инпуты (чекбоксы) на странице*/
+  display: none;
+}
+
+/*позиция изображения при активации переключателя*/
+#switch1:checked ~ #slides .image {
+  margin-left: 0;
+}
+
+#switch2:checked ~ #slides .image {
+  margin-left: -100%;
+}
+
+#switch3:checked ~ #slides .image {
+  margin-left: -200%;
+}
+
+#active label {
+  /*стиль отдельного переключателя*/
+  border-radius: 50%;
+  /*скругление углов*/
+  display: inline-block;
+  /*расположение в строку*/
+  width: 12px;
+  height: 12px;
+  background: #D9D9D9;
+  margin-right: 18px;
+}
+
+#active label:last-child {
+  margin-right: 0;
+}
+
+#active {
+  /*расположение блока с переключателями*/
+  margin-top: 30px;
+  text-align: center;
+}
+
+@media screen and (min-width: 768px) {
+  #active {
+    margin-top: 35px;
+  }
+}
+
+#active label:hover {
+  /*поведение чекбокса при наведении*/
+  background: #FFA5BA;
+}
+
+/*цвет активного лейбла при активации чекбокса*/
+#switch1:checked ~ #active label:nth-child(1),
+#switch2:checked ~ #active label:nth-child(2),
+#switch3:checked ~ #active label:nth-child(3) {
+  background: #D41443;
+}
+
+#slides .image {
+  /*анимация пролистывания изображений*/
+  -webkit-transition: all 800ms cubic-bezier(0.77, 0, 0.175, 1);
+  transition: all 800ms cubic-bezier(0.77, 0, 0.175, 1);
+}
+
+.testimonials {
+  display: block;
+  position: relative;
+  width: 320px;
+  margin-bottom: 212px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media screen and (min-width: 768px) {
+  .testimonials {
+    width: 768px;
+    margin-bottom: 244px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .testimonials {
+    width: 1280px;
+    margin-bottom: 281px;
+  }
+}
+
+.testimonials__sliderContainer {
+  padding-top: 154px;
+}
+
+@media screen and (min-width: 768px) {
+  .testimonials__sliderContainer {
+    padding-top: 279px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .testimonials__sliderContainer {
+    padding-top: 382px;
+  }
+}
+
+.testimonials__collage {
+  position: absolute;
+  top: -48px;
+  left: 0;
+  width: 320px;
+  height: 122px;
+}
+
+@media screen and (min-width: 768px) {
+  .testimonials__collage {
+    top: -106px;
+    width: 768px;
+    height: 270px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .testimonials__collage {
+    top: -171px;
+    width: 1280px;
+    height: 430px;
+  }
+}
+
+.testimonials__image {
+  width: 85px;
+  height: 85px;
+  margin-bottom: 29px;
+}
+
+@media screen and (min-width: 768px) {
+  .testimonials__image {
+    margin-bottom: 19px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .testimonials__image {
+    margin-bottom: 15px;
+  }
+}
+
+.testimonials__description {
+  display: block;
+  position: relative;
+  width: 280px;
+  height: 308px;
+  padding-top: 43px;
+  padding-left: 61.5px;
+  padding-right: 61.5px;
+  padding-bottom: 26px;
+  margin-left: auto;
+  margin-right: auto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 2.55;
+  text-align: center;
+  letter-spacing: 0.04em;
+  background: url(../img/“.svg) 61px 28px no-repeat, url(../img/vector.png) 50px 70px no-repeat, url(../img/vector.png) 50px 100px no-repeat, url(../img/vector.png) 50px 130px no-repeat, url(../img/vector.png) 50px 160px no-repeat, url(../img/vector.png) 50px 190px no-repeat, url(../img/vector.png) 50px 220px no-repeat, url(../img/vector.png) 50px 250px no-repeat, url(../img/vector.png) 50px 280px no-repeat;
+  background-size: 54px 40px, 180px 1px, 180px 1px, 180px 1px, 180px 1px, 180px 1px, 180px 1px, 180px 1px, 180px 1px;
+  background-color: #FAFAFA;
+}
+
+@media screen and (min-width: 768px) {
+  .testimonials__description {
+    width: 620px;
+    height: 164px;
+    padding-top: 47px;
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-bottom: 34px;
+    font-size: 14px;
+    line-height: 2.16;
+    background: url(../img/“.svg) 40px 30px no-repeat, url(../img/vector.png) 60px 76px no-repeat, url(../img/vector.png) 60px 106px no-repeat, url(../img/vector.png) 60px 136px no-repeat;
+    background-size: 54px 40px, 524px 1px, 524px 1px, 524px 1px;
+    background-color: #FAFAFA;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .testimonials__description {
+    width: 926px;
+    height: 138px;
+    padding-top: 47px;
+    padding-left: 88px;
+    padding-right: 88px;
+    padding-bottom: 39px;
+    font-size: 16px;
+    line-height: 1.86;
+    background: url(../img/“.svg) 50px 32px no-repeat, url(../img/vector.png) 59px 75.5px no-repeat, url(../img/vector.png) 59px 106px no-repeat;
+    background-size: 54px 40px, 813px 1px, 813px 1px;
+    background-color: #FAFAFA;
+  }
+}
+
+.testimonials__more {
+  display: inline-block;
+  padding: 0;
+  margin-top: 30px;
+  margin-bottom: 18px;
+}
+
+@media screen and (min-width: 768px) {
+  .testimonials__more {
+    margin-top: 24px;
+    margin-bottom: 14px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .testimonials__more {
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+}
+
+.testimonials__moreIcon {
+  fill: #D41443;
+  width: 32px;
+  height: 4px;
+}
+
+.testimonials__name {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.86;
+  text-align: center;
+  color: #000000;
+}
+
+@media screen and (min-width: 768px) {
+  .testimonials__name {
+    font-size: 16px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .testimonials__name {
+    font-size: 20px;
   }
 }
 /*# sourceMappingURL=main.css.map */

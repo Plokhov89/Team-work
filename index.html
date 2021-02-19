@@ -12,17 +12,17 @@
     <link rel="stylesheet" href="./sass/main.css">
 </head>
 <body>
-    <section class="technology">
-        <div class="technology__container">
-            <h2 class="technology__title">tradition and love</h2>
-            <p class="technology__description">how it’s made?</p>
-            <div class="technology_textBlock">
-                <img class="technology__image" src="./img/home-pic4(480).png" alt="Cow with milk">
-                <div class="technology__descriptionBlock">
-                    <p class="technology__content">
+    <section class="about">
+        <div class="about__container">
+            <h2 class="about__title">tradition and love</h2>
+            <p class="about__description">how it’s made?</p>
+            <div class="about_textBlock">
+                <img class="about__image" src="./img/home-pic4(480).png" alt="Cow with milk">
+                <div class="about__descriptionBlock">
+                    <p class="about__content">
                         Fusce ut velit laoreet, tempus arcu eu, molestie tortor. Nam vel justo cursus, faucibus lorem eget, egestas eros. Maecenas eleifend erat at justo fringilla.
                     </p>
-                    <p class="technology__content2">
+                    <p class="about__content2">
                         Curabitur lacinia enim at ex blandit, vel pellentesque odio elementum. Mauris rhoncus orci in imperdiet placerat. Vestibulum euismod nisl suscipit ligula volutpat, a feugiat urna maximus. Cras massa nibh, tincidunt.</br>
                         Aliquam erat volutpat. Aenean accumsan.
                     </p>
@@ -36,29 +36,94 @@
                     </button>
                 </div>
             </div>
-            <ul class="technology__list">
-                <li class="technology__listItem">
-                    <svg class="technology__listIcon">
+            <ul class="about__list">
+                <li class="about__listItem">
+                    <svg class="about__listIcon">
                         <use href="./img/icons.svg#icon-milk"></use>
                     </svg>
-                    <h3 class="technology__listTitle">721</h3>
-                    <p class="technology__listContent">Aliquam ac dui vel dui vulputate consectetur. Mauris massa.</p>
+                    <h3 class="about__listTitle">721</h3>
+                    <p class="about__listContent">Aliquam ac dui vel dui vulputate consectetur. Mauris massa.</p>
                 </li>
-                <li class="technology__listItem">
-                    <svg class="technology__listIcon">
+                <li class="about__listItem">
+                    <svg class="about__listIcon">
                         <use href="./img/icons.svg#icon-apples"></use>
                     </svg>
-                    <h3 class="technology__listTitle">16kg</h3>
-                    <p class="technology__listContent">Aliquam ac dui vel dui vulputate consectetur. Mauris massa.</p>
+                    <h3 class="about__listTitle">16kg</h3>
+                    <p class="about__listContent">Aliquam ac dui vel dui vulputate consectetur. Mauris massa.</p>
                 </li>
-                <li class="technology__listItem">
-                    <svg class="technology__listIcon">
+                <li class="about__listItem">
+                    <svg class="about__listIcon">
                         <use href="./img/icons.svg#icon-ice-cream"></use>
                     </svg>
-                    <h3 class="technology__listTitle">84</h3>
-                    <p class="technology__listContent">Aliquam ac dui vel dui vulputate consectetur. Mauris massa.</p>
+                    <h3 class="about__listTitle">84</h3>
+                    <p class="about__listContent">Aliquam ac dui vel dui vulputate consectetur. Mauris massa.</p>
                 </li>
             </ul>
+        </div>
+    </section>
+
+    <section class="testimonials">
+        <img src="./img/collage.png" alt="" class="testimonials__collage">
+        <div class="testimonials__sliderContainer">
+            <input checked type="radio" name="respond" id="desktop">
+                <article id="slider">
+                        <input checked type="radio" name="slider" id="switch1">
+                        <input type="radio" name="slider" id="switch2">
+                        <input type="radio" name="slider" id="switch3">
+                    <div id="slides">
+                        <div id="overflow">
+                            <div class="image">
+                                <article class="testimonials__slide">
+                                    <img class="testimonials__image" src="./img/testimonials1.png">
+                                    <p class="testimonials__description">
+                                        Nullam viverra consectetuer. Quisque cursus et, porttitor risus. Aliquam sem. In hendrerit nulla quam nunc, accumsan congue. Lorem ipsum primis in nibh vel risus.
+                                    </p>
+                                    <a href="" class="testimonials__more">
+                                        <svg class="testimonials__moreIcon">
+                                            <use href="./img/icons.svg#icon-dots"></use>
+                                        </svg>
+                                    </a>
+                                    <p class="testimonials__name">
+                                        Emily, Los Angeles
+                                    </p>
+                                </article>
+                                <article class="testimonials__slide">
+                                    <img class="testimonials__image" src="./img/testimonials2.png">
+                                    <p class="testimonials__description">
+                                        Nullam viverra consectetuer. Quisque cursus et, porttitor risus. Aliquam sem. In hendrerit nulla quam nunc, accumsan congue. Lorem ipsum primis in nibh vel risus.
+                                    </p>
+                                    <a href="" class="testimonials__more">
+                                        <svg class="testimonials__moreIcon">
+                                            <use href="./img/icons.svg#icon-dots"></use>
+                                        </svg>
+                                    </a>
+                                    <p class="testimonials__name">
+                                        Black Mamba, New York
+                                    </p>
+                                </article>
+                                <article class="testimonials__slide">
+                                    <img class="testimonials__image" src="./img/testimonials3.png">
+                                    <p class="testimonials__description">
+                                        Nullam viverra consectetuer. Quisque cursus et, porttitor risus. Aliquam sem. In hendrerit nulla quam nunc, accumsan congue. Lorem ipsum primis in nibh vel risus.
+                                    </p>
+                                    <a href="" class="testimonials__more">
+                                        <svg class="testimonials__moreIcon">
+                                            <use href="./img/icons.svg#icon-dots"></use>
+                                        </svg>
+                                    </a>
+                                    <p class="testimonials__name">
+                                        Maya, Chicago
+                                    </p>
+                                </article>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="active">
+                        <label for="switch1"></label>
+                        <label for="switch2"></label>
+                        <label for="switch3"></label>
+                    </div>
+                </article>
         </div>
     </section>
 </body>

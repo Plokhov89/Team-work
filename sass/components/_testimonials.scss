@@ -1,0 +1,187 @@
+.testimonials {
+    display: block;
+	position: relative;
+    width: $mobile;
+    margin-bottom: 212px;
+    margin-left: auto;
+    margin-right: auto;
+
+	@media screen and (min-width: $tablet) {
+		width: $tablet;
+    	margin-bottom: 244px;
+	}
+
+	@media screen and (min-width: $desktop) {
+		width: $desktop;
+    	margin-bottom: 281px;
+	}
+
+	&__sliderContainer {
+		padding-top: 154px;
+
+		@media screen and (min-width: $tablet) {
+			padding-top: 279px;
+		}
+	
+		@media screen and (min-width: $desktop) {
+			padding-top: 382px;
+		}
+	}
+
+	&__collage {
+		position: absolute;
+		top: -48px;
+		left: 0;
+		width: 320px;
+		height: 122px;
+
+		@media screen and (min-width: $tablet) {
+			top: -106px;
+			width: 768px;
+			height: 270px;
+		}
+	
+		@media screen and (min-width: $desktop) {
+			top: -171px;
+			width: 1280px;
+			height: 430px;
+		}
+	}
+
+    &__image {
+        width: 85px;
+        height: 85px;
+        margin-bottom: 29px;
+
+		@media screen and (min-width: $tablet) {
+			margin-bottom: 19px;
+		}
+	
+		@media screen and (min-width: $desktop) {
+			margin-bottom: 15px;
+		}
+    }
+
+    &__description {
+        display: block;
+		position: relative;
+        width: 280px;
+        height: 308px;
+        padding-top: 43px;
+        padding-left: 61.5px;
+        padding-right: 61.5px;
+		padding-bottom: 26px;
+        margin-left: auto;
+        margin-right: auto;
+
+        font-style: normal;
+        font-weight: 500;
+        font-size: 12px;
+		line-height: 2.55;
+
+        text-align: center;
+        letter-spacing: 0.04em;
+
+		background: url(../img/“.svg) 61px 28px no-repeat,
+					url(../img/vector.png) 50px 70px no-repeat,
+					url(../img/vector.png) 50px 100px no-repeat,
+					url(../img/vector.png) 50px 130px no-repeat,
+					url(../img/vector.png) 50px 160px no-repeat,
+					url(../img/vector.png) 50px 190px no-repeat,
+					url(../img/vector.png) 50px 220px no-repeat,
+					url(../img/vector.png) 50px 250px no-repeat,
+					url(../img/vector.png) 50px 280px no-repeat;
+
+		background-size: 54px 40px,
+						180px 1px,
+						180px 1px,
+						180px 1px,
+						180px 1px,
+						180px 1px,
+						180px 1px,
+						180px 1px,
+						180px 1px;
+
+		background-color: $description-bg-color;
+
+
+		@media screen and (min-width: $tablet) {
+			width: 620px;
+			height: 164px;
+			padding-top: 47px;
+			padding-left: 80px;
+			padding-right: 80px;
+			padding-bottom: 34px;
+			font-size: 14px;
+			line-height: 2.16;
+
+			background: url(../img/“.svg) 40px 30px no-repeat,
+						url(../img/vector.png) 60px 76px no-repeat,
+						url(../img/vector.png) 60px 106px no-repeat,
+						url(../img/vector.png) 60px 136px no-repeat;
+
+			background-size: 54px 40px, 524px 1px, 524px 1px, 524px 1px;
+			background-color: $description-bg-color;
+		}
+	
+		@media screen and (min-width: $desktop) {
+			width: 926px;
+        	height: 138px;
+			padding-top: 47px;
+			padding-left: 88px;
+			padding-right: 88px;
+			padding-bottom: 39px;
+			font-size: 16px;
+        	line-height: 1.86;
+
+			background: url(../img/“.svg) 50px 32px no-repeat,
+						url(../img/vector.png) 59px 75.5px no-repeat,
+						url(../img/vector.png) 59px 106px no-repeat;
+
+			background-size: 54px 40px, 813px 1px, 813px 1px;
+			background-color: $description-bg-color;
+		}
+    }
+
+	&__more {
+		display: inline-block;
+		padding: 0;
+		margin-top: 30px;
+		margin-bottom: 18px;
+
+		@media screen and (min-width: $tablet) {
+			margin-top: 24px;
+			margin-bottom: 14px;
+		}
+	
+		@media screen and (min-width: $desktop) {
+			margin-top: 15px;
+			margin-bottom: 15px;
+		}
+	}
+
+	&__moreIcon {
+		fill: $description-text-color;
+		width: 32px;
+		height: 4px;
+	}
+
+	&__name {
+		font-style: normal;
+		font-weight: 500;
+		font-size: 14px;
+		line-height: 1.86;
+
+		text-align: center;
+
+		color: $primary-content-color;
+
+		@media screen and (min-width: $tablet) {
+			font-size: 16px;
+		}
+	
+		@media screen and (min-width: $desktop) {
+			font-size: 20px;
+		}
+	}
+}

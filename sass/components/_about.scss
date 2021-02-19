@@ -1,4 +1,4 @@
-.technology {
+.about {
     display: block;
     position: relative;
     width: $mobile;
@@ -33,13 +33,13 @@
         margin-right: auto;
 
         @media screen and (min-width: $tablet) {
-            padding-left: 36px;
-            padding-right: 36px;
+            padding-left: 34px;
+            padding-right: 34px;
         }
 
         @media screen and (min-width: $desktop) {
-            padding-left: 116px;
-            padding-right: 116px;
+            padding-left: 115px;
+            padding-right: 115px;
         }
     }
 
