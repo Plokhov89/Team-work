@@ -103,7 +103,7 @@ button {
   position: relative;
   width: 320px;
   background-color: #FFF5F6;
-  background-image: url(../../img/sectionbg.png);
+  background-image: url(../img/sectionbg.png);
   background-size: contain;
   background-repeat: no-repeat;
   background-position: 0 766px;
@@ -121,7 +121,7 @@ button {
 @media screen and (min-width: 1282px) {
   .technology {
     width: 1282px;
-    background-image: url(../../img/sectionbg.png);
+    background-image: url(../img/sectionbg.png);
     background-size: contain;
     background-repeat: no-repeat;
     background-position: 0 342px;

@@ -4,7 +4,7 @@
     width: $mobile;
     background-color: $main-bg-color;
 
-    background-image: url(../../img/sectionbg.png);
+    background-image: url(../img/sectionbg.png);
     background-size: contain;
     background-repeat: no-repeat;
     background-position: 0 766px;
@@ -20,7 +20,7 @@
 
     @media screen and (min-width: $desktop) {
         width: $desktop;
-        background-image: url(../../img/sectionbg.png);
+        background-image: url(../img/sectionbg.png);
         background-size: contain;
         background-repeat: no-repeat;
         background-position: 0 342px;
