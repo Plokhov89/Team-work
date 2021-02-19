@@ -1,0 +1,35 @@
+.button {
+    margin-left: 30px;
+
+    @media screen and (min-width: $tablet) {
+        margin-left: 0;
+    }
+
+    @media screen and (min-width: $desktop) {
+        margin-bottom: 104px;
+    }
+
+    &__link {
+        display: flex;
+        width: 176px;
+        height: 44px;
+        align-items: center;
+        justify-content: center;
+    }
+
+    &__linkText {
+        font-style: normal;
+        font-weight: bold;
+        font-size: 14px;
+        line-height: 18px;
+        text-align: center;
+        color: $description-text-color;
+    }
+
+    &__linkIcon {
+        width: 6px;
+        height: 10px;
+        margin-left: 14px;
+        fill: $description-text-color;
+    }
+}
